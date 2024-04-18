@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Audios & Videos</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        #audio {
+            background-color: brown;
+            color: aliceblue;
+        }
+
+        #video {
+            background-color: rgb(238, 44, 212);
+            color: aliceblue
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="audio">
+        <br>
+        <p>
+        <h1>AUDIOS</h1>
+        </p>
+        <br>
+        <audio controls>
+            <source src="audios/tum.mp3" type="audio/mpeg">
+        </audio >
+        <audio loop autoplay="autoplay" controls>
+            <source src="audios/iphonemix.mp3" type="audio/mpeg">
+        </audio>
+        <audio  autoplay="autoplay" controls>
+            <source src="audios/tone.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <audio  loop muted autoplay="autoplay" controls>
+            <source src="audios/hmm.mp3" type="audio/mpeg">
+        </audio>
+        <audio  muted controls>
+            <source src="audios/flute.mp3" type="audio/mpeg">
+        </audio>
+        <audio loop  controls>
+            <source src="audios/iphonemix.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <br>
+        <hr>
+        <hr>
+        <br>
+    </div>
+    <div id="video">
+        <p>
+            <br>
+        <h1> VIDEOS</h1>
+        </p>
+        <br>
+        <video width="320" height="240" controls>
+            <source src="clips/Beautiful.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="240" loop muted autoplay="autoplay">
+            <source src="clips/Bird.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="240" loop autoplay="autoplay" controls>
+            <source src="clips/Sunset.mp4" type="video/mp4">
+        </video>
+        <br>
+        <video width="320" height="240" poster="clips/nm.avif" loop autoplay="autoplay">
+            <source src="clips/Beautiful.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="240" poster="clips/bb.jpg"  loop controls>
+            <source src="clips/Bird.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="240" muted controls>
+            <source src="clips/Sunset.mp4" type="video/mp4">
+        </video>
+        <!-- <video width="320" height="240"  controls> 
+            <source url="https://youtu.be/oeVO9-42MS4?si=2-ehONgJlSjQUwkM" type="video/mp4">
+    </video> -->
+        <hr>
+
+    </div>
+</body>
+
+</html>
